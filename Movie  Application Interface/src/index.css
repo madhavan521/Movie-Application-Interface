@@ -1,0 +1,45 @@
+ body{
+     background-color: hsl(0, 3%, 12%);
+     color: whitesmoke;
+ }
+ .topmovies{
+     display:inline-flex;
+ }
+ .btn:hover{
+     background: rgb(63, 62, 62);
+     color: white;
+
+ }
+ li{
+     display:inline;
+     padding-left: 12px;
+     list-style: none;
+ }
+  i{
+      padding: 0px 11px;
+  }
+  .watch{
+      width:250px;
+  }
+  .images {
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.images:hover {
+    width: 160px;
+    height: 200px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+}
+.Allmovies{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 12px;
+
+}
+.custom-swal-container {
+    background-color: #333; /* Change background color */
+    width: 400px; /* Set width */
+    height: 200px; /* Set height */
+    border-radius: 10px; /* Optional: Set border radius */
+}
